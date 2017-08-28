@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DFF382A302595C5A3650F9 /* libPods-G8TesseractDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8494B736C80F56207C161BA5 /* libPods-G8TesseractDemo.a */; };
+		11F7985D1EADA73A00046824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7985C1EADA73A00046824 /* main.m */; };
+		11F798601EADA73A00046824 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F7985F1EADA73A00046824 /* AppDelegate.m */; };
+		11F798631EADA73A00046824 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F798621EADA73A00046824 /* ViewController.m */; };
+		11F798661EADA73A00046824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F798641EADA73A00046824 /* Main.storyboard */; };
+		11F798681EADA73A00046824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F798671EADA73A00046824 /* Assets.xcassets */; };
+		11F7986B1EADA73A00046824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F798691EADA73A00046824 /* LaunchScreen.storyboard */; };
+		11F798731EADAAA900046824 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F798721EADAAA900046824 /* libz.1.dylib */; };
+		11F798751EADAC4D00046824 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 11F798741EADAC4D00046824 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11F798581EADA73A00046824 /* G8TesseractDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G8TesseractDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F7985C1EADA73A00046824 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F7985E1EADA73A00046824 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11F7985F1EADA73A00046824 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11F798611EADA73A00046824 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11F798621EADA73A00046824 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11F798651EADA73A00046824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11F798671EADA73A00046824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F7986A1EADA73A00046824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11F7986C1EADA73A00046824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F798721EADAAA900046824 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		11F798741EADAC4D00046824 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../tessdata; sourceTree = "<group>"; };
+		2BCC2B692EF34E798B90CD02 /* Pods-G8TesseractDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G8TesseractDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G8TesseractDemo/Pods-G8TesseractDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8494B736C80F56207C161BA5 /* libPods-G8TesseractDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-G8TesseractDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD63210EDA8BB8B383B3067 /* Pods-G8TesseractDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G8TesseractDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-G8TesseractDemo/Pods-G8TesseractDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F798551EADA73A00046824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F798731EADAAA900046824 /* libz.1.dylib in Frameworks */,
+				06DFF382A302595C5A3650F9 /* libPods-G8TesseractDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F7984F1EADA73A00046824 = {
+			isa = PBXGroup;
+			children = (
+				11F7985A1EADA73A00046824 /* G8TesseractDemo */,
+				11F798591EADA73A00046824 /* Products */,
+				D0FAA8F02D92E3386A250887 /* Pods */,
+				385B126CF73769DBCB13BEEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11F798591EADA73A00046824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F798581EADA73A00046824 /* G8TesseractDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F7985A1EADA73A00046824 /* G8TesseractDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11F7985E1EADA73A00046824 /* AppDelegate.h */,
+				11F7985F1EADA73A00046824 /* AppDelegate.m */,
+				11F798611EADA73A00046824 /* ViewController.h */,
+				11F798621EADA73A00046824 /* ViewController.m */,
+				11F798641EADA73A00046824 /* Main.storyboard */,
+				11F798671EADA73A00046824 /* Assets.xcassets */,
+				11F798691EADA73A00046824 /* LaunchScreen.storyboard */,
+				11F7986C1EADA73A00046824 /* Info.plist */,
+				11F798741EADAC4D00046824 /* tessdata */,
+				11F7985B1EADA73A00046824 /* Supporting Files */,
+			);
+			path = G8TesseractDemo;
+			sourceTree = "<group>";
+		};
+		11F7985B1EADA73A00046824 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F7985C1EADA73A00046824 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		385B126CF73769DBCB13BEEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F798721EADAAA900046824 /* libz.1.dylib */,
+				8494B736C80F56207C161BA5 /* libPods-G8TesseractDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FAA8F02D92E3386A250887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC2B692EF34E798B90CD02 /* Pods-G8TesseractDemo.debug.xcconfig */,
+				DDD63210EDA8BB8B383B3067 /* Pods-G8TesseractDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F798571EADA73A00046824 /* G8TesseractDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F7986F1EADA73A00046824 /* Build configuration list for PBXNativeTarget "G8TesseractDemo" */;
+			buildPhases = (
+				5998BBE19A4E67F38086A023 /* [CP] Check Pods Manifest.lock */,
+				11F798541EADA73A00046824 /* Sources */,
+				11F798551EADA73A00046824 /* Frameworks */,
+				11F798561EADA73A00046824 /* Resources */,
+				94805A76AD7CD762328756C8 /* [CP] Embed Pods Frameworks */,
+				0641A282A9463B1254F7C6C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = G8TesseractDemo;
+			productName = G8TesseractDemo;
+			productReference = 11F798581EADA73A00046824 /* G8TesseractDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F798501EADA73A00046824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = April;
+				TargetAttributes = {
+					11F798571EADA73A00046824 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GZKP525SU3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11F798531EADA73A00046824 /* Build configuration list for PBXProject "G8TesseractDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11F7984F1EADA73A00046824;
+			productRefGroup = 11F798591EADA73A00046824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F798571EADA73A00046824 /* G8TesseractDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F798561EADA73A00046824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F7986B1EADA73A00046824 /* LaunchScreen.storyboard in Resources */,
+				11F798751EADAC4D00046824 /* tessdata in Resources */,
+				11F798681EADA73A00046824 /* Assets.xcassets in Resources */,
+				11F798661EADA73A00046824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0641A282A9463B1254F7C6C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G8TesseractDemo/Pods-G8TesseractDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5998BBE19A4E67F38086A023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94805A76AD7CD762328756C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-G8TesseractDemo/Pods-G8TesseractDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F798541EADA73A00046824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F798631EADA73A00046824 /* ViewController.m in Sources */,
+				11F798601EADA73A00046824 /* AppDelegate.m in Sources */,
+				11F7985D1EADA73A00046824 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11F798641EADA73A00046824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F798651EADA73A00046824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11F798691EADA73A00046824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F7986A1EADA73A00046824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F7986D1EADA73A00046824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11F7986E1EADA73A00046824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F798701EADA73A00046824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCC2B692EF34E798B90CD02 /* Pods-G8TesseractDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GZKP525SU3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = G8TesseractDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.april.G8TesseractDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11F798711EADA73A00046824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD63210EDA8BB8B383B3067 /* Pods-G8TesseractDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GZKP525SU3;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = G8TesseractDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.april.G8TesseractDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F798531EADA73A00046824 /* Build configuration list for PBXProject "G8TesseractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7986D1EADA73A00046824 /* Debug */,
+				11F7986E1EADA73A00046824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F7986F1EADA73A00046824 /* Build configuration list for PBXNativeTarget "G8TesseractDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F798701EADA73A00046824 /* Debug */,
+				11F798711EADA73A00046824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F798501EADA73A00046824 /* Project object */;
+}
